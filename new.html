@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <h1>Da Mama's Local Pot Menu</h1>
+            <div class="shopping">
+            <i class="ri-shopping-cart-fill"></i>
+            <span id="quantity">0</span>    
+            </div>
+        </header>
+        <div class="list-and-card">
+        <div class="list" id="list">
+            
+        </div>
+        
+    
+    <div class="card" id="card">
+        <h1> PLATE CART</h1>
+        <ul id="listCard">
+
+        </ul>
+        <!-- <div class="checkOut">
+            <div class="total">0</div>
+            <div class="closeShopping">Close</div>
+        </div> -->
+        <p>Total: ₦ <span id="total">0</span></p>
+        <div class="button">
+            <button id="submitOrder" onclick="submitOrder()"> Order Submitted
+                <div class="submitLoading" id="submitLoading">
+
+                </div>
+
+            </button>
+            <button id="printOrder" onclick="printOrder()"> Order Printed
+                <div class="printLoading" id="printLoading">
+
+                </div>
+            </button>
+        </div>
+        </div>
+    </div>
+    </div>
+    <script src="new.js"></script>
+</body>
+</html>
